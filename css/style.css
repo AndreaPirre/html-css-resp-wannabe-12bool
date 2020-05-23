@@ -4,37 +4,79 @@
     box-sizing: border-box;
 }
 
-.maps {
-    background-color:;
-    border: 1px solid gray;
-    height: 300px;
-    margin-top: 0px;
+body  {
+    font-family: arial;
+    color: #708090;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom:
+}
+
+h2 {
+    margin-top: 30px;
+    color: #5D8AA8;
+}
+
+h1 {
+    color: #5E86C1;    
+}
+
+img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.riga, .icone  {
+    /* background-color:; */
+    /* border: 1px solid gray; */
+    /* height: 300px; */
+    text-align: center;
+}
+
+
+#screen {
+    width: 320px;
+    margin-bottom: 5px;
+}
+
+#lens {
+    width: 200px;
 }
 
 .titolo, .testo{
-    border: 1px solid gray;
-    height: 50px;
-    margin-top: 5px;
+    /* border: 1px solid gray; */
+    /* height: 50px; */
+    margin-top: 20px;
+    text-align: center;
 }
 
 
 .sfondo-grey {
     width: 100%;
-    height: 350px;
-    background-color: lightgrey;
+    /* height: 500px; */
+    background-color: #f9f9f9;
     margin-top: 50px;
 }
 
-.sfondo-grey-2 {
-    height: 800px;
+.sfondo-grey::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.icone {
-    border: 1px solid gray;
-    height: 100px;
-    margin-top: 0px;
-}
 
 .icone-blue {
     margin-top: 15px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.riga3 p {
+    margin-bottom: 20px;
 }
